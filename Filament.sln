@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{96683E85-E497-469A-9030-92E9F32F0317}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+		src\Directory.Build.targets = src\Directory.Build.targets
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Filament", "src\Filament\Filament.csproj", "{B5A453EF-672C-45F4-A622-E8133E8CBD65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F2B6D62-EFF5-4B9C-895D-A1E59D610CF8}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5A453EF-672C-45F4-A622-E8133E8CBD65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A453EF-672C-45F4-A622-E8133E8CBD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A453EF-672C-45F4-A622-E8133E8CBD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A453EF-672C-45F4-A622-E8133E8CBD65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5A453EF-672C-45F4-A622-E8133E8CBD65} = {96683E85-E497-469A-9030-92E9F32F0317}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5E02403-79A2-4C3E-9592-D2A8D6829964}
+	EndGlobalSection
+EndGlobal
